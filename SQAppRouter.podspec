@@ -3,30 +3,15 @@ Pod::Spec.new do |s|
 
   s.name         = "SQAppRouter"
   s.version      = "0.0.1"
-  s.summary      = "iOS组件化架构"
-
-
-
+  s.summary      = "iOS组件化框架"
 
   s.homepage     = "https://github.com/CoderSQ/SQAppRouter.git"
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = { "CoderSQ" => "steven_shuang@126.com" }
-  # Or just: s.author    = "CoderSQ"
-  # s.authors            = { "CoderSQ" => "steven_shuang@126.com" }
-  # s.social_media_url   = "http://twitter.com/CoderSQ"
 
-
-  # s.platform     = :ios
   s.platform     = :ios, "7.0"
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/CoderSQ/SQAppRouter.git", :tag => "#{s.version}" }
 
@@ -34,6 +19,7 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
+
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
@@ -45,6 +31,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
+
 
 
   s.requires_arc = true
