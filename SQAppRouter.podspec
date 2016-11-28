@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "SQAppMediator"
+  s.name         = "SQAppRouter"
   s.version      = "0.0.1"
   s.summary      = "iOS组件化架构"
 
 
 
 
-  s.homepage     = "https://github.com/CoderSQ/SQAppMediator.git"
+  s.homepage     = "https://github.com/CoderSQ/SQAppRouter.git"
 
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/CoderSQ/SQAppMediator.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/CoderSQ/SQAppRouter.git", :tag => "#{s.version}" }
 
-  s.source_files  = "SQAppMediator", "*.{h,m}"
+  s.source_files  = "SQAppRouter", "*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
