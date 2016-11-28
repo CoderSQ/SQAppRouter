@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E94BD1DEC1B0F002C0405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94BC1DEC1B0F002C0405 /* main.m */; };
+		181E94C01DEC1B0F002C0405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94BF1DEC1B0F002C0405 /* AppDelegate.m */; };
+		181E94C31DEC1B0F002C0405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94C21DEC1B0F002C0405 /* ViewController.m */; };
+		181E94C61DEC1B0F002C0405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E94C41DEC1B0F002C0405 /* Main.storyboard */; };
+		181E94C81DEC1B0F002C0405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E94C71DEC1B0F002C0405 /* Assets.xcassets */; };
+		181E94CB1DEC1B0F002C0405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E94C91DEC1B0F002C0405 /* LaunchScreen.storyboard */; };
+		181E94D61DEC1B0F002C0405 /* SQAppRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94D51DEC1B0F002C0405 /* SQAppRouterDemoTests.m */; };
+		181E94E11DEC1B0F002C0405 /* SQAppRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94E01DEC1B0F002C0405 /* SQAppRouterDemoUITests.m */; };
+		181E94F41DEC1B27002C0405 /* SQAppRouter+DemoModelActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94F11DEC1B27002C0405 /* SQAppRouter+DemoModelActions.m */; };
+		181E94F51DEC1B27002C0405 /* SQAppRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94F31DEC1B27002C0405 /* SQAppRouter.m */; };
+		181E94FC1DEC1B5E002C0405 /* DemoModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94F81DEC1B5E002C0405 /* DemoModelViewController.m */; };
+		181E94FD1DEC1B5E002C0405 /* Target_DemoModul.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E94FB1DEC1B5E002C0405 /* Target_DemoModul.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181E94D21DEC1B0F002C0405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E94B01DEC1B0F002C0405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E94B71DEC1B0F002C0405;
+			remoteInfo = SQAppRouterDemo;
+		};
+		181E94DD1DEC1B0F002C0405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E94B01DEC1B0F002C0405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E94B71DEC1B0F002C0405;
+			remoteInfo = SQAppRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181E94B81DEC1B0F002C0405 /* SQAppRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQAppRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E94BC1DEC1B0F002C0405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181E94BE1DEC1B0F002C0405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181E94BF1DEC1B0F002C0405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181E94C11DEC1B0F002C0405 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181E94C21DEC1B0F002C0405 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181E94C51DEC1B0F002C0405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181E94C71DEC1B0F002C0405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181E94CA1DEC1B0F002C0405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181E94CC1DEC1B0F002C0405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E94D11DEC1B0F002C0405 /* SQAppRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQAppRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E94D51DEC1B0F002C0405 /* SQAppRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQAppRouterDemoTests.m; sourceTree = "<group>"; };
+		181E94D71DEC1B0F002C0405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E94DC1DEC1B0F002C0405 /* SQAppRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQAppRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E94E01DEC1B0F002C0405 /* SQAppRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQAppRouterDemoUITests.m; sourceTree = "<group>"; };
+		181E94E21DEC1B0F002C0405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E94F01DEC1B27002C0405 /* SQAppRouter+DemoModelActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQAppRouter+DemoModelActions.h"; sourceTree = "<group>"; };
+		181E94F11DEC1B27002C0405 /* SQAppRouter+DemoModelActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQAppRouter+DemoModelActions.m"; sourceTree = "<group>"; };
+		181E94F21DEC1B27002C0405 /* SQAppRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQAppRouter.h; sourceTree = "<group>"; };
+		181E94F31DEC1B27002C0405 /* SQAppRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQAppRouter.m; sourceTree = "<group>"; };
+		181E94F71DEC1B5E002C0405 /* DemoModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModelViewController.h; sourceTree = "<group>"; };
+		181E94F81DEC1B5E002C0405 /* DemoModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModelViewController.m; sourceTree = "<group>"; };
+		181E94FA1DEC1B5E002C0405 /* Target_DemoModul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_DemoModul.h; sourceTree = "<group>"; };
+		181E94FB1DEC1B5E002C0405 /* Target_DemoModul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_DemoModul.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181E94B51DEC1B0F002C0405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E94CE1DEC1B0F002C0405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E94D91DEC1B0F002C0405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E94AF1DEC1B0F002C0405 = {
+			isa = PBXGroup;
+			children = (
+				181E94BA1DEC1B0F002C0405 /* SQAppRouterDemo */,
+				181E94D41DEC1B0F002C0405 /* SQAppRouterDemoTests */,
+				181E94DF1DEC1B0F002C0405 /* SQAppRouterDemoUITests */,
+				181E94B91DEC1B0F002C0405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181E94B91DEC1B0F002C0405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181E94B81DEC1B0F002C0405 /* SQAppRouterDemo.app */,
+				181E94D11DEC1B0F002C0405 /* SQAppRouterDemoTests.xctest */,
+				181E94DC1DEC1B0F002C0405 /* SQAppRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E94BA1DEC1B0F002C0405 /* SQAppRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181E94F61DEC1B5E002C0405 /* DemoModule */,
+				181E94EE1DEC1B27002C0405 /* SQAppRouter */,
+				181E94BE1DEC1B0F002C0405 /* AppDelegate.h */,
+				181E94BF1DEC1B0F002C0405 /* AppDelegate.m */,
+				181E94C11DEC1B0F002C0405 /* ViewController.h */,
+				181E94C21DEC1B0F002C0405 /* ViewController.m */,
+				181E94C41DEC1B0F002C0405 /* Main.storyboard */,
+				181E94C71DEC1B0F002C0405 /* Assets.xcassets */,
+				181E94C91DEC1B0F002C0405 /* LaunchScreen.storyboard */,
+				181E94CC1DEC1B0F002C0405 /* Info.plist */,
+				181E94BB1DEC1B0F002C0405 /* Supporting Files */,
+			);
+			path = SQAppRouterDemo;
+			sourceTree = "<group>";
+		};
+		181E94BB1DEC1B0F002C0405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181E94BC1DEC1B0F002C0405 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181E94D41DEC1B0F002C0405 /* SQAppRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				181E94D51DEC1B0F002C0405 /* SQAppRouterDemoTests.m */,
+				181E94D71DEC1B0F002C0405 /* Info.plist */,
+			);
+			path = SQAppRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		181E94DF1DEC1B0F002C0405 /* SQAppRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181E94E01DEC1B0F002C0405 /* SQAppRouterDemoUITests.m */,
+				181E94E21DEC1B0F002C0405 /* Info.plist */,
+			);
+			path = SQAppRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		181E94EE1DEC1B27002C0405 /* SQAppRouter */ = {
+			isa = PBXGroup;
+			children = (
+				181E94EF1DEC1B27002C0405 /* Categories */,
+				181E94F21DEC1B27002C0405 /* SQAppRouter.h */,
+				181E94F31DEC1B27002C0405 /* SQAppRouter.m */,
+			);
+			name = SQAppRouter;
+			path = ../../SQAppRouter;
+			sourceTree = "<group>";
+		};
+		181E94EF1DEC1B27002C0405 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				181E94F01DEC1B27002C0405 /* SQAppRouter+DemoModelActions.h */,
+				181E94F11DEC1B27002C0405 /* SQAppRouter+DemoModelActions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		181E94F61DEC1B5E002C0405 /* DemoModule */ = {
+			isa = PBXGroup;
+			children = (
+				181E94F71DEC1B5E002C0405 /* DemoModelViewController.h */,
+				181E94F81DEC1B5E002C0405 /* DemoModelViewController.m */,
+				181E94F91DEC1B5E002C0405 /* Target_DemoModel */,
+			);
+			path = DemoModule;
+			sourceTree = "<group>";
+		};
+		181E94F91DEC1B5E002C0405 /* Target_DemoModel */ = {
+			isa = PBXGroup;
+			children = (
+				181E94FA1DEC1B5E002C0405 /* Target_DemoModul.h */,
+				181E94FB1DEC1B5E002C0405 /* Target_DemoModul.m */,
+			);
+			path = Target_DemoModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181E94B71DEC1B0F002C0405 /* SQAppRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E94E51DEC1B0F002C0405 /* Build configuration list for PBXNativeTarget "SQAppRouterDemo" */;
+			buildPhases = (
+				181E94B41DEC1B0F002C0405 /* Sources */,
+				181E94B51DEC1B0F002C0405 /* Frameworks */,
+				181E94B61DEC1B0F002C0405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQAppRouterDemo;
+			productName = SQAppRouterDemo;
+			productReference = 181E94B81DEC1B0F002C0405 /* SQAppRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181E94D01DEC1B0F002C0405 /* SQAppRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E94E81DEC1B0F002C0405 /* Build configuration list for PBXNativeTarget "SQAppRouterDemoTests" */;
+			buildPhases = (
+				181E94CD1DEC1B0F002C0405 /* Sources */,
+				181E94CE1DEC1B0F002C0405 /* Frameworks */,
+				181E94CF1DEC1B0F002C0405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E94D31DEC1B0F002C0405 /* PBXTargetDependency */,
+			);
+			name = SQAppRouterDemoTests;
+			productName = SQAppRouterDemoTests;
+			productReference = 181E94D11DEC1B0F002C0405 /* SQAppRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181E94DB1DEC1B0F002C0405 /* SQAppRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E94EB1DEC1B0F002C0405 /* Build configuration list for PBXNativeTarget "SQAppRouterDemoUITests" */;
+			buildPhases = (
+				181E94D81DEC1B0F002C0405 /* Sources */,
+				181E94D91DEC1B0F002C0405 /* Frameworks */,
+				181E94DA1DEC1B0F002C0405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E94DE1DEC1B0F002C0405 /* PBXTargetDependency */,
+			);
+			name = SQAppRouterDemoUITests;
+			productName = SQAppRouterDemoUITests;
+			productReference = 181E94DC1DEC1B0F002C0405 /* SQAppRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181E94B01DEC1B0F002C0405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zsq;
+				TargetAttributes = {
+					181E94B71DEC1B0F002C0405 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LCR7NHC4V2;
+						ProvisioningStyle = Automatic;
+					};
+					181E94D01DEC1B0F002C0405 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LCR7NHC4V2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181E94B71DEC1B0F002C0405;
+					};
+					181E94DB1DEC1B0F002C0405 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LCR7NHC4V2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181E94B71DEC1B0F002C0405;
+					};
+				};
+			};
+			buildConfigurationList = 181E94B31DEC1B0F002C0405 /* Build configuration list for PBXProject "SQAppRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181E94AF1DEC1B0F002C0405;
+			productRefGroup = 181E94B91DEC1B0F002C0405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181E94B71DEC1B0F002C0405 /* SQAppRouterDemo */,
+				181E94D01DEC1B0F002C0405 /* SQAppRouterDemoTests */,
+				181E94DB1DEC1B0F002C0405 /* SQAppRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181E94B61DEC1B0F002C0405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E94CB1DEC1B0F002C0405 /* LaunchScreen.storyboard in Resources */,
+				181E94C81DEC1B0F002C0405 /* Assets.xcassets in Resources */,
+				181E94C61DEC1B0F002C0405 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E94CF1DEC1B0F002C0405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E94DA1DEC1B0F002C0405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181E94B41DEC1B0F002C0405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E94C31DEC1B0F002C0405 /* ViewController.m in Sources */,
+				181E94F41DEC1B27002C0405 /* SQAppRouter+DemoModelActions.m in Sources */,
+				181E94C01DEC1B0F002C0405 /* AppDelegate.m in Sources */,
+				181E94F51DEC1B27002C0405 /* SQAppRouter.m in Sources */,
+				181E94FD1DEC1B5E002C0405 /* Target_DemoModul.m in Sources */,
+				181E94BD1DEC1B0F002C0405 /* main.m in Sources */,
+				181E94FC1DEC1B5E002C0405 /* DemoModelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E94CD1DEC1B0F002C0405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E94D61DEC1B0F002C0405 /* SQAppRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E94D81DEC1B0F002C0405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E94E11DEC1B0F002C0405 /* SQAppRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181E94D31DEC1B0F002C0405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E94B71DEC1B0F002C0405 /* SQAppRouterDemo */;
+			targetProxy = 181E94D21DEC1B0F002C0405 /* PBXContainerItemProxy */;
+		};
+		181E94DE1DEC1B0F002C0405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E94B71DEC1B0F002C0405 /* SQAppRouterDemo */;
+			targetProxy = 181E94DD1DEC1B0F002C0405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181E94C41DEC1B0F002C0405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E94C51DEC1B0F002C0405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181E94C91DEC1B0F002C0405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E94CA1DEC1B0F002C0405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181E94E31DEC1B0F002C0405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181E94E41DEC1B0F002C0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181E94E61DEC1B0F002C0405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCR7NHC4V2;
+				INFOPLIST_FILE = SQAppRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylh.SQAppRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181E94E71DEC1B0F002C0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCR7NHC4V2;
+				INFOPLIST_FILE = SQAppRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylh.SQAppRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181E94E91DEC1B0F002C0405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LCR7NHC4V2;
+				INFOPLIST_FILE = SQAppRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylh.SQAppRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQAppRouterDemo.app/SQAppRouterDemo";
+			};
+			name = Debug;
+		};
+		181E94EA1DEC1B0F002C0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LCR7NHC4V2;
+				INFOPLIST_FILE = SQAppRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylh.SQAppRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQAppRouterDemo.app/SQAppRouterDemo";
+			};
+			name = Release;
+		};
+		181E94EC1DEC1B0F002C0405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LCR7NHC4V2;
+				INFOPLIST_FILE = SQAppRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylh.SQAppRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQAppRouterDemo;
+			};
+			name = Debug;
+		};
+		181E94ED1DEC1B0F002C0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LCR7NHC4V2;
+				INFOPLIST_FILE = SQAppRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hylh.SQAppRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQAppRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181E94B31DEC1B0F002C0405 /* Build configuration list for PBXProject "SQAppRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E94E31DEC1B0F002C0405 /* Debug */,
+				181E94E41DEC1B0F002C0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E94E51DEC1B0F002C0405 /* Build configuration list for PBXNativeTarget "SQAppRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E94E61DEC1B0F002C0405 /* Debug */,
+				181E94E71DEC1B0F002C0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181E94E81DEC1B0F002C0405 /* Build configuration list for PBXNativeTarget "SQAppRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E94E91DEC1B0F002C0405 /* Debug */,
+				181E94EA1DEC1B0F002C0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181E94EB1DEC1B0F002C0405 /* Build configuration list for PBXNativeTarget "SQAppRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E94EC1DEC1B0F002C0405 /* Debug */,
+				181E94ED1DEC1B0F002C0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181E94B01DEC1B0F002C0405 /* Project object */;
+}
